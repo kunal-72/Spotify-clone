@@ -1,0 +1,73 @@
+.border {
+  border: 2px solid red;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-centre {
+  justify-content: center;
+}
+
+.align-item-centre {
+  align-items: centre;
+}
+
+.bg-black {
+  background-color: black;
+  color: #fff;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.bg-grey {
+  background-color: #2a2a2a;
+}
+
+.rounded {
+  border-radius: 7px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+/* Dark scrollbar style for the whole page */
+::-webkit-scrollbar {
+  width: 10px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+  /* Scrollbar track (background) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;
+  /* Scrollbar thumb (the part you drag) */
+  border-radius: 5px;
+  /* Rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666;
+  /* Color when hovered */
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  /* Makes it thinner */
+  scrollbar-color: #444 #111;
+  /* thumb color | track color */
+}
+
+

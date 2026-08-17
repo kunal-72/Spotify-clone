@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" sizes="32x32" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png">
+    <link rel="icon" sizes="16x16" type="image/png"
+        href="https://open.spotifycdn.com/cdn/images/favicon16.1c487bff.png">
+    <link rel="icon" href="https://open.spotifycdn.com/cdn/images/favicon.0f31d2ea.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="upper-sidebar">
+                <div>
+                    <img src="/img/logo.svg" class="invert" alt="" srcset=""
+                        style="height: 18px;">
+                </div>
+                <div>
+                    <img src="/img/home.svg" class="invert" alt="" srcset="">
+                    <span>Home</span>
+                </div>
+                <div>
+                    <img src="/img/search.svg" class="invert" alt="" srcset="">
+                    <span>Search</span>
+                </div>
+
+               <div class="close">
+                 <img src="/img/close.svg"  class="invert hide" style="height: 1.5rem;" alt="">
+               </div>
+
+            </div>
+            <div class="lower-sidebar">
+                <div class="library">
+                    <img src="/img/playlist.svg" class="invert" alt="" srcset="">
+                    <p>Your Library</p>
+                </div>
+                <div class="play-list">
+            
+                </div>
+
+                <div class="footer">
+                    <div>
+                        <a href="#">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="header-1">
+                    <img src="/img/hamburger.svg" class="invert hide" alt="">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="header-2">
+                    <button class="signup">SingUp</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+            <h2>Spotify Playlist</h2>
+            <div class="card-container"></div>            
+        </div>
+        <div class="bottom">
+            <div class="songs-navbar">
+                <div class="curr-song">Main Rakhlu Chipa Ke Ringtone Download - MobCup.Com.Co (1).mp3 Kundan</div>
+                <div class="play-controler">
+                    <img src="/img/prevsong.svg" id="prevBtn" style="height: 1.5rem;" alt="" srcset="">
+                    <img src="/img/playsong.svg" id="playBtn" style="height: 1.5rem;" alt="" srcset="">
+                    <img src="/img/nextsong.svg" id="nextBtn" style="height: 1.5rem;" alt="" srcset="">
+                </div>
+                <div class="time" style="width: 90px;">00:00/00:00</div>
+                <div class="volume-controler">
+                    <img src="/img/volume.svg" style="height: 1rem;" alt="" srcset="">
+                    <input type="range">
+                </div>
+            </div>
+            <div class="seekbar">
+                <div class="thumb"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
