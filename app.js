@@ -1,6 +1,5 @@
 let hamburder = document.querySelector('.header-1 img');
 
-
 let close = document.querySelector('.close');
 
 let songs;
@@ -94,9 +93,6 @@ let playMusic = (track, pause = false) => {
     document.querySelector(".curr-song").innerHTML = track;
    
 }
-
-
-
 
 
 async function displayAlbums() {
@@ -208,10 +204,6 @@ async function main() {
         }
 
     })
-
-
-
-
 
 
     nextBtn.addEventListener('click', () => {
